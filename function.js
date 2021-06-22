@@ -9,14 +9,29 @@
 // ............  Kilo-meter TO Meter CALCULATION ................... ..
 
 function kmToM (km) {
-    if (km >= 1) {
+    if (km >= 0) {
         var meter = km * 1000;
         console.log(meter,"meter");
     
        }
        else{
-        console.log("Negative value is not acceptable");
+        console.log("Distance can't be negative.So negative value is not acceptable.");
     }
 
 }
-kmToM(30);
+kmToM(3);
+
+// ............  Meter TO Kilo-meter CALCULATION ................... ..
+
+function mToKm (meters) {
+    if (meters >= 0) {
+        var kilometer = meters / 1000;
+        console.log(kilometer,"km");
+    
+       }
+       else{
+        console.log("Distance can't be negative.So negative value is not acceptable.");
+    }
+
+}
+mToKm (386000);

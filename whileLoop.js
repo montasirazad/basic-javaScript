@@ -27,3 +27,11 @@ while (i3<4){
   console.log(i3,place);
   i3 ++;
 }
+
+
+var newPlace = "Cumilla";
+var i = 0;
+while (i<3) {
+  console.log(newPlace);
+  i++;
+}
