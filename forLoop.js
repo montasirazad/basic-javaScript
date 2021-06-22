@@ -17,8 +17,20 @@ for (let i =0; i < 4; i++) {
      console.log(country);
 }
 
-let name1 ="DHRUBO";
-for (let i = 0; i<4 ; i++){
 
-    console.log(i);
+for (let i = 0; i<4 ; i++){
+    let name1 ="DHRUBO";
+    console.log(name1);
+}
+
+
+for (let i = 0; i < 5; i++) {
+    let city = 'Dhaka';
+    console.log(city);
+    
+}
+
+let num2 = 1993;
+for(i=1 ; i <5; i++) {
+    console.log(num2);
 }
